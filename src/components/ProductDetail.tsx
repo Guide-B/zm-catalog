@@ -72,12 +72,12 @@ export default function ProductDetail({ product, onClose }: Props) {
         </div>
 
         {/* 2-Column responsive body */}
-        <div className="flex-1 overflow-y-auto min-h-0 sm:flex sm:divide-x sm:divide-gray-100">
+        <div className="flex-1 overflow-y-auto min-h-0 md:flex md:divide-x md:divide-gray-100 custom-scrollbar">
           {/* Left Column: Visuals */}
-          <div className="sm:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50">
+          <div className="md:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50">
             {product.images.length > 0 ? (
               <div className="space-y-3 sticky top-0">
-                <div className="bg-white rounded-2xl border border-gray-100 aspect-square sm:aspect-[4/3] flex items-center justify-center overflow-hidden p-4 shadow-sm">
+                <div className="bg-white rounded-2xl border border-gray-100 aspect-square md:aspect-[4/3] flex items-center justify-center overflow-hidden p-4 shadow-sm">
                   <img
                     src={product.images[activeImg] || product.images[0]}
                     alt={product.title}
@@ -85,7 +85,7 @@ export default function ProductDetail({ product, onClose }: Props) {
                   />
                 </div>
                 {product.images.length > 1 && (
-                  <div className="flex gap-2 overflow-x-auto pb-1">
+                  <div className="flex gap-2 overflow-x-auto pb-1 custom-scrollbar">
                     {product.images.map((img, i) => (
                       <button
                         key={i}
@@ -100,7 +100,7 @@ export default function ProductDetail({ product, onClose }: Props) {
                   </div>
                 )}
                 {/* Desktop Quick Price Tag */}
-                <div className="hidden sm:flex items-center justify-between bg-white border border-gray-100 rounded-xl p-3.5 mt-2">
+                <div className="hidden md:flex items-center justify-between bg-white border border-gray-100 rounded-xl p-3.5 mt-2">
                   <div>
                     <p className="text-xs text-gray-400 uppercase tracking-wide">Starting from</p>
                     <p className="text-xl font-bold text-gray-900">
@@ -120,10 +120,10 @@ export default function ProductDetail({ product, onClose }: Props) {
           </div>
 
           {/* Right Column: Information, Variants & Specs */}
-          <div className="sm:w-1/2 p-4 sm:p-6 space-y-6">
+          <div className="md:w-1/2 p-4 sm:p-6 pb-10 space-y-6">
             {/* Title & Description */}
             <div>
-              <div className="sm:hidden flex items-baseline justify-between mb-2">
+              <div className="md:hidden flex items-baseline justify-between mb-2">
                 <span className="text-2xl font-bold text-gray-900">
                   {SITE_CONFIG.currency}{lowestPrice.toLocaleString()}
                 </span>

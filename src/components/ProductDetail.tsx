@@ -72,9 +72,9 @@ export default function ProductDetail({ product, onClose }: Props) {
         </div>
 
         {/* 2-Column responsive body */}
-        <div className="flex-1 overflow-y-auto min-h-0 md:flex md:divide-x md:divide-gray-100 dark:md:divide-gray-800 custom-scrollbar">
+        <div className="flex-1 overflow-y-auto md:overflow-hidden min-h-0 md:flex md:divide-x md:divide-gray-100 dark:md:divide-gray-800 custom-scrollbar">
           {/* Left Column: Visuals */}
-          <div className="md:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50 dark:bg-gray-950/40">
+          <div className="md:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50 dark:bg-gray-950/40 md:overflow-y-auto custom-scrollbar">
             {product.images.length > 0 ? (
               <div className="space-y-3 sticky top-0">
                 <div className="bg-white dark:bg-gray-800/80 rounded-2xl border border-gray-100 dark:border-gray-700/60 aspect-square md:aspect-[4/3] flex items-center justify-center overflow-hidden p-4 shadow-sm">
@@ -122,7 +122,7 @@ export default function ProductDetail({ product, onClose }: Props) {
           </div>
 
           {/* Right Column: Information, Variants & Specs */}
-          <div className="md:w-1/2 p-4 sm:p-5 pb-8 space-y-4">
+          <div className="md:w-1/2 p-4 sm:p-5 pb-8 space-y-4 md:overflow-y-auto custom-scrollbar">
             {/* Title & Description */}
             <div>
               <div className="md:hidden flex items-baseline justify-between mb-1.5">

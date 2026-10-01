@@ -1,5 +1,4 @@
 // Auto-generated from catalog.db - do not edit manually
-// Regenerate with: python3 scripts/sync_catalog.py
 
 export interface ProductVariant {
   name: string
@@ -210,7 +209,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/hp-omen-victus-9.png"
+      "/images/laptops/hp-omen-victus-9.png"
     ]
   },
   {
@@ -257,7 +256,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/hp-omen-victus-8.png"
+      "/images/laptops/hp-omen-victus-8.png"
     ]
   },
   {
@@ -332,7 +331,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/asus-fx507.png"
+      "/images/laptops/asus-fx507.png"
     ]
   },
   {
@@ -379,7 +378,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/hp-omen-victus-7.png"
+      "/images/laptops/hp-omen-victus-7.png"
     ]
   },
   {
@@ -426,7 +425,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/hp-omen-victus-6.png"
+      "/images/laptops/hp-omen-victus-6.png"
     ]
   },
   {
@@ -466,7 +465,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/asus-fx95gt-9750.png"
+      "/images/laptops/asus-fx95gt-9750.png"
     ]
   },
   {
@@ -534,7 +533,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/asus-fx506.png"
+      "/images/laptops/asus-fx506.png"
     ]
   },
   {
@@ -581,7 +580,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/hp-omen-victus-5.png"
+      "/images/laptops/hp-omen-victus-5.png"
     ]
   },
   {
@@ -614,7 +613,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/laptops/asus-fx95gt-9300.png"
+      "/images/laptops/asus-fx95gt-9300.png"
     ]
   },
   {
@@ -5525,7 +5524,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "featured": false,
     "variants": [],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/menswear/s1.jpg"
+      "/images/menswear/s1.jpg"
     ]
   },
   {
@@ -5564,7 +5563,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/menswear/s1.jpg"
+      "/images/menswear/s1.jpg"
     ]
   },
   {
@@ -5603,7 +5602,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/watches/apple_watch_ultra_2.png"
+      "/images/watches/apple_watch_ultra_2.png"
     ]
   },
   {
@@ -5642,7 +5641,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/watches/apple_watch_series_10.png"
+      "/images/watches/apple_watch_series_10.png"
     ]
   },
   {
@@ -5674,7 +5673,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/audio/airpods_pro_2.png"
+      "/images/audio/airpods_pro_2.png"
     ]
   },
   {
@@ -5706,7 +5705,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
       }
     ],
     "images": [
-      "/Volumes/TSU303_Data/Commerce_Catalog/images/chargers/anker_charger_100w.png"
+      "/images/chargers/anker_charger_100w.png"
     ]
   }
 ]

@@ -16,13 +16,13 @@ export default function App() {
   }, [activeCategory])
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors">
       <Header />
       <CategoryNav active={activeCategory} onChange={setActiveCategory} />
 
       <main className="max-w-7xl mx-auto px-4 py-6">
         {/* Count */}
-        <p className="text-xs text-gray-400 mb-4">
+        <p className="text-xs text-gray-400 dark:text-gray-500 mb-4">
           {filtered.length} {filtered.length === 1 ? 'product' : 'products'}
         </p>
 
@@ -38,7 +38,7 @@ export default function App() {
             ))}
           </div>
         ) : (
-          <div className="text-center py-20 text-gray-400">
+          <div className="text-center py-20 text-gray-400 dark:text-gray-600">
             <p className="text-3xl mb-2">-</p>
             <p className="text-sm">No products in this category yet</p>
           </div>

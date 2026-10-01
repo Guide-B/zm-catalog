@@ -18,10 +18,10 @@ export default function ProductCard({ product, onClick }: Props) {
   return (
     <button
       onClick={onClick}
-      className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-gray-300 hover:shadow-md transition-all duration-200 text-left w-full"
+      className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden hover:border-gray-300 dark:hover:border-gray-700 hover:shadow-md transition-all duration-200 text-left w-full flex flex-col"
     >
       {/* Image */}
-      <div className="bg-gray-50 aspect-square flex items-center justify-center overflow-hidden">
+      <div className="bg-gray-50 dark:bg-gray-800/40 aspect-square flex items-center justify-center overflow-hidden">
         {primaryImage ? (
           <img
             src={primaryImage}
@@ -30,27 +30,29 @@ export default function ProductCard({ product, onClick }: Props) {
             loading="lazy"
           />
         ) : (
-          <div className="text-gray-300 text-4xl select-none">?</div>
+          <div className="text-gray-300 dark:text-gray-600 text-4xl select-none">?</div>
         )}
       </div>
 
       {/* Info */}
-      <div className="p-3">
-        {product.brand && (
-          <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-0.5">
-            {product.brand}
+      <div className="p-3 flex-1 flex flex-col justify-between">
+        <div>
+          {product.brand && (
+            <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-0.5">
+              {product.brand}
+            </p>
+          )}
+          <p className="text-sm font-medium text-gray-900 dark:text-gray-100 line-clamp-2 min-h-[2.6em] leading-tight">
+            {product.title}
           </p>
-        )}
-        <p className="text-sm font-medium text-gray-900 line-clamp-2 min-h-[2.6em] leading-tight">
-          {product.title}
-        </p>
-        <div className="mt-2 flex items-center justify-between">
+        </div>
+        <div className="mt-2.5 flex items-center justify-between">
           <div>
-            <p className="text-xs text-gray-400">from</p>
-            <p className="text-base font-bold text-gray-900">{priceDisplay}</p>
+            <p className="text-[11px] text-gray-400 dark:text-gray-500 leading-none">from</p>
+            <p className="text-base font-bold text-gray-900 dark:text-white mt-0.5">{priceDisplay}</p>
           </div>
           {variantCount > 1 && (
-            <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">
+            <span className="text-[11px] bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 px-2 py-0.5 rounded-full font-medium">
               {variantCount} options
             </span>
           )}

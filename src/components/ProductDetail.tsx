@@ -40,29 +40,29 @@ export default function ProductDetail({ product, onClose }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/60 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/60 dark:bg-black/80 backdrop-blur-sm animate-fade-in"
       onClick={onClose}
     >
       {/* Panel */}
       <div
-        className="relative bg-white w-full max-w-4xl max-h-[92vh] sm:max-h-[88vh] rounded-2xl sm:rounded-3xl flex flex-col shadow-2xl overflow-hidden"
+        className="relative bg-white dark:bg-gray-900 w-full max-w-4xl max-h-[92vh] sm:max-h-[88vh] rounded-2xl sm:rounded-3xl flex flex-col shadow-2xl overflow-hidden border border-gray-100 dark:border-gray-800 transition-colors"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header bar */}
-        <div className="flex-shrink-0 bg-white flex items-center justify-between px-5 py-3.5 border-b border-gray-100">
+        <div className="flex-shrink-0 bg-white dark:bg-gray-900 flex items-center justify-between px-5 py-3.5 border-b border-gray-100 dark:border-gray-800 transition-colors">
           <div className="flex items-center gap-2 pr-4 min-w-0">
             {product.brand && (
-              <span className="text-xs font-bold text-gray-500 uppercase tracking-wider bg-gray-100 px-2 py-0.5 rounded">
+              <span className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded">
                 {product.brand}
               </span>
             )}
-            <h2 className="font-semibold text-gray-900 text-sm sm:text-base truncate">
+            <h2 className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base truncate">
               {product.title}
             </h2>
           </div>
           <button
             onClick={onClose}
-            className="text-gray-400 hover:text-gray-700 p-1.5 rounded-full hover:bg-gray-100 transition-colors flex-shrink-0"
+            className="text-gray-400 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 p-1.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex-shrink-0"
             aria-label="Close modal"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -72,12 +72,12 @@ export default function ProductDetail({ product, onClose }: Props) {
         </div>
 
         {/* 2-Column responsive body */}
-        <div className="flex-1 overflow-y-auto min-h-0 md:flex md:divide-x md:divide-gray-100 custom-scrollbar">
+        <div className="flex-1 overflow-y-auto min-h-0 md:flex md:divide-x md:divide-gray-100 dark:md:divide-gray-800 custom-scrollbar">
           {/* Left Column: Visuals */}
-          <div className="md:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50">
+          <div className="md:w-1/2 p-4 sm:p-6 flex flex-col justify-start bg-gray-50/50 dark:bg-gray-950/40">
             {product.images.length > 0 ? (
               <div className="space-y-3 sticky top-0">
-                <div className="bg-white rounded-2xl border border-gray-100 aspect-square md:aspect-[4/3] flex items-center justify-center overflow-hidden p-4 shadow-sm">
+                <div className="bg-white dark:bg-gray-800/80 rounded-2xl border border-gray-100 dark:border-gray-700/60 aspect-square md:aspect-[4/3] flex items-center justify-center overflow-hidden p-4 shadow-sm">
                   <img
                     src={product.images[activeImg] || product.images[0]}
                     alt={product.title}
@@ -90,8 +90,10 @@ export default function ProductDetail({ product, onClose }: Props) {
                       <button
                         key={i}
                         onClick={() => setActiveImg(i)}
-                        className={`flex-shrink-0 w-16 h-16 rounded-xl bg-white p-1 border-2 transition-all shadow-xs ${
-                          i === activeImg ? 'border-gray-900 ring-2 ring-gray-900/10' : 'border-gray-200 hover:border-gray-400'
+                        className={`flex-shrink-0 w-16 h-16 rounded-xl bg-white dark:bg-gray-800 p-1 border-2 transition-all shadow-xs ${
+                          i === activeImg
+                            ? 'border-gray-900 dark:border-white ring-2 ring-gray-900/10 dark:ring-white/20'
+                            : 'border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500'
                         }`}
                       >
                         <img src={img} alt="" className="w-full h-full object-contain" />
@@ -100,20 +102,20 @@ export default function ProductDetail({ product, onClose }: Props) {
                   </div>
                 )}
                 {/* Desktop Quick Price Tag */}
-                <div className="hidden md:flex items-center justify-between bg-white border border-gray-100 rounded-xl p-3.5 mt-2">
+                <div className="hidden md:flex items-center justify-between bg-white dark:bg-gray-800/80 border border-gray-100 dark:border-gray-700/60 rounded-xl p-3.5 mt-2">
                   <div>
-                    <p className="text-xs text-gray-400 uppercase tracking-wide">Starting from</p>
-                    <p className="text-xl font-bold text-gray-900">
+                    <p className="text-xs text-gray-400 dark:text-gray-400 uppercase tracking-wide">Starting from</p>
+                    <p className="text-xl font-bold text-gray-900 dark:text-white">
                       {SITE_CONFIG.currency}{lowestPrice.toLocaleString()}
                     </p>
                   </div>
-                  <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${product.in_stock ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
+                  <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${product.in_stock ? 'bg-green-50 dark:bg-green-950/40 text-green-700 dark:text-green-400 border border-green-200/50 dark:border-green-800/40' : 'bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-400'}`}>
                     {product.in_stock ? 'In Stock' : 'Out of Stock'}
                   </span>
                 </div>
               </div>
             ) : (
-              <div className="bg-white rounded-2xl border border-gray-100 aspect-square flex items-center justify-center text-gray-300 text-4xl">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 aspect-square flex items-center justify-center text-gray-300 dark:text-gray-600 text-4xl">
                 ?
               </div>
             )}
@@ -124,18 +126,18 @@ export default function ProductDetail({ product, onClose }: Props) {
             {/* Title & Description */}
             <div>
               <div className="md:hidden flex items-baseline justify-between mb-1.5">
-                <span className="text-xl font-bold text-gray-900">
+                <span className="text-xl font-bold text-gray-900 dark:text-white">
                   {SITE_CONFIG.currency}{lowestPrice.toLocaleString()}
                 </span>
-                <span className={`text-[11px] px-2 py-0.5 rounded-full font-medium ${product.in_stock ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
+                <span className={`text-[11px] px-2 py-0.5 rounded-full font-medium ${product.in_stock ? 'bg-green-50 dark:bg-green-950/40 text-green-700 dark:text-green-400' : 'bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-400'}`}>
                   {product.in_stock ? 'In Stock' : 'Out of Stock'}
                 </span>
               </div>
-              <h3 className="text-base sm:text-lg font-bold text-gray-900 leading-snug">
+              <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white leading-snug">
                 {product.title}
               </h3>
               {product.description && (
-                <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
+                <p className="text-xs text-gray-500 dark:text-gray-300 mt-1.5 leading-relaxed">
                   {product.description}
                 </p>
               )}
@@ -145,7 +147,7 @@ export default function ProductDetail({ product, onClose }: Props) {
             {product.variants.length > 0 && (
               <div>
                 <div className="flex items-center justify-between mb-1.5">
-                  <h4 className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                  <h4 className="text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                     Available Options ({product.variants.length})
                   </h4>
                 </div>
@@ -153,20 +155,20 @@ export default function ProductDetail({ product, onClose }: Props) {
                   {product.variants.map((v, i) => (
                     <div
                       key={i}
-                      className="flex items-center justify-between bg-gray-50 hover:bg-gray-100/80 transition-colors rounded-lg px-3 py-2 border border-gray-100"
+                      className="flex items-center justify-between bg-gray-50 dark:bg-gray-800/60 hover:bg-gray-100/80 dark:hover:bg-gray-800 transition-colors rounded-lg px-3 py-2 border border-gray-100 dark:border-gray-700/60"
                     >
                       <div className="min-w-0 pr-2">
-                        <p className="text-xs font-semibold text-gray-900 truncate">
+                        <p className="text-xs font-semibold text-gray-900 dark:text-white truncate">
                           {v.name}
                         </p>
                         {(v.storage || v.color) && (
-                          <p className="text-[11px] text-gray-500">
+                          <p className="text-[11px] text-gray-500 dark:text-gray-400">
                             {[v.storage, v.color].filter(Boolean).join(' - ')}
                           </p>
                         )}
                       </div>
                       {v.price > 0 && (
-                        <p className="text-xs font-bold text-gray-900 flex-shrink-0">
+                        <p className="text-xs font-bold text-gray-900 dark:text-white flex-shrink-0">
                           {SITE_CONFIG.currency}{v.price.toLocaleString()}
                         </p>
                       )}
@@ -179,14 +181,14 @@ export default function ProductDetail({ product, onClose }: Props) {
             {/* Specifications */}
             {Object.keys(product.specs).length > 0 && (
               <div>
-                <h4 className="text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">
+                <h4 className="text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1.5">
                   Specifications
                 </h4>
-                <div className="divide-y divide-gray-100 rounded-lg border border-gray-100 overflow-hidden bg-white shadow-xs">
+                <div className="divide-y divide-gray-100 dark:divide-gray-800/80 rounded-lg border border-gray-100 dark:border-gray-800 overflow-hidden bg-white dark:bg-gray-800/40 shadow-xs">
                   {Object.entries(product.specs).map(([key, val]) => (
                     <div key={key} className="flex justify-between items-start px-3 py-1.5 text-xs">
-                      <span className="text-gray-500 font-medium pr-2">{key}</span>
-                      <span className="text-gray-900 font-semibold text-right max-w-[65%] break-words">
+                      <span className="text-gray-500 dark:text-gray-400 font-medium pr-2">{key}</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-semibold text-right max-w-[65%] break-words">
                         {String(val)}
                       </span>
                     </div>
@@ -208,7 +210,7 @@ export default function ProductDetail({ product, onClose }: Props) {
                 </svg>
                 Inquire via WhatsApp
               </a>
-              <p className="text-[10px] text-gray-400 text-center mt-1.5">
+              <p className="text-[10px] text-gray-400 dark:text-gray-500 text-center mt-1.5">
                 Direct inquiry with our local Lusaka team
               </p>
             </div>

@@ -82,6 +82,9 @@ export default function ProductDetail({ product, onClose }: Props) {
                     src={product.images[activeImg] || product.images[0]}
                     alt={product.title}
                     className="max-h-full max-w-full object-contain transition-all duration-300"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = '/images/brand_showcase/huawei-pura.jpg'
+                    }}
                   />
                 </div>
                 {product.images.length > 1 && (

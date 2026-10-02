@@ -28,6 +28,9 @@ export default function ProductCard({ product, onClick }: Props) {
             alt={product.title}
             className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = '/images/brand_showcase/huawei-pura.jpg'
+            }}
           />
         ) : (
           <div className="w-full h-full p-3.5 flex flex-col justify-between items-center text-center bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200/70 dark:from-gray-800/60 dark:via-gray-850 dark:to-gray-900 select-none">

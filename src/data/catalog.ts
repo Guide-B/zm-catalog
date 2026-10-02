@@ -20469,8 +20469,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X6(16+1TB) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition White",
     "title": "Huawei Mate X6(16+1TB) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition White",
     "description": "Huawei Mate X6(16+1TB) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 37674.0,
-    "price_team": 37674.0,
+    "price_retail": 7774.0,
+    "price_team": 7774.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -20485,7 +20485,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X6(16+1TB) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition White",
         "storage": "1TB",
         "color": "Standard",
-        "price": 37674.0,
+        "price": 7774.0,
         "sku": "UPPER-B-U0026"
       }
     ],
@@ -20565,8 +20565,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition White",
     "title": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition White",
     "description": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 34086.0,
-    "price_team": 34086.0,
+    "price_retail": 4186.0,
+    "price_team": 4186.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -20581,7 +20581,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition White",
         "storage": "512G",
         "color": "Standard",
-        "price": 34086.0,
+        "price": 4186.0,
         "sku": "UPPER-B-U0029"
       }
     ],
@@ -20725,8 +20725,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition",
     "title": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition",
     "description": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 30199.0,
-    "price_team": 30199.0,
+    "price_retail": 5382.0,
+    "price_team": 5382.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -20741,7 +20741,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition",
         "storage": "512G",
         "color": "Standard",
-        "price": 30199.0,
+        "price": 5382.0,
         "sku": "UPPER-B-U0034"
       }
     ],
@@ -20757,8 +20757,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition ( Black",
     "title": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition ( Black",
     "description": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition ( Black. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 30199.0,
-    "price_team": 30199.0,
+    "price_retail": 5382.0,
+    "price_team": 5382.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -20773,7 +20773,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X6(16+512G) 5G Unlocked Foldable Display Collector's Edition Pioneer Edition ( Black",
         "storage": "512G",
         "color": "Standard",
-        "price": 30199.0,
+        "price": 5382.0,
         "sku": "UPPER-B-U0035"
       }
     ],
@@ -20853,8 +20853,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X7(1 5G Unlocked Foldable Display (",
     "title": "Huawei Mate X7(1 5G Unlocked Foldable Display (",
     "description": "Huawei Mate X7(1 5G Unlocked Foldable Display (. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 31993.0,
-    "price_team": 31993.0,
+    "price_retail": 2093.0,
+    "price_team": 2093.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -20869,7 +20869,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X7(1 5G Unlocked Foldable Display (",
         "storage": "256G",
         "color": "Standard",
-        "price": 31993.0,
+        "price": 2093.0,
         "sku": "UPPER-B-U0038"
       }
     ],
@@ -21525,8 +21525,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X7(16+1TB) 5G Unlocked Foldable Display Collector's Edition Brocade Blue",
     "title": "Huawei Mate X7(16+1TB) 5G Unlocked Foldable Display Collector's Edition Brocade Blue",
     "description": "Huawei Mate X7(16+1TB) 5G Unlocked Foldable Display Collector's Edition Brocade Blue. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 36777.0,
-    "price_team": 36777.0,
+    "price_retail": 6877.0,
+    "price_team": 6877.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -21541,7 +21541,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X7(16+1TB) 5G Unlocked Foldable Display Collector's Edition Brocade Blue",
         "storage": "1TB",
         "color": "Standard",
-        "price": 36777.0,
+        "price": 6877.0,
         "sku": "UPPER-B-U0059"
       }
     ],
@@ -21589,8 +21589,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X7(16+512G) 5G Unlocked Foldable Display Collector's Edition (] Purple",
     "title": "Huawei Mate X7(16+512G) 5G Unlocked Foldable Display Collector's Edition (] Purple",
     "description": "Huawei Mate X7(16+512G) 5G Unlocked Foldable Display Collector's Edition (] Purple. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 37674.0,
-    "price_team": 37674.0,
+    "price_retail": 7774.0,
+    "price_team": 7774.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -21605,7 +21605,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X7(16+512G) 5G Unlocked Foldable Display Collector's Edition (] Purple",
         "storage": "512G",
         "color": "Standard",
-        "price": 37674.0,
+        "price": 7774.0,
         "sku": "UPPER-B-U0061"
       }
     ],
@@ -21877,8 +21877,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen )(",
     "title": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen )(",
     "description": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen )(. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 48587.5,
-    "price_team": 48587.5,
+    "price_retail": 18687.5,
+    "price_team": 18687.5,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -21893,7 +21893,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen )(",
         "storage": "1TB",
         "color": "Standard",
-        "price": 48587.5,
+        "price": 18687.5,
         "sku": "UPPER-B-U0070"
       }
     ],
@@ -21909,8 +21909,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen ) White",
     "title": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen ) White",
     "description": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen ) White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 47840.0,
-    "price_team": 47840.0,
+    "price_retail": 17940.0,
+    "price_team": 17940.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -21925,7 +21925,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate X7( 5G Unlocked Foldable Display Collector's Edition ( Stylus Pen ) White",
         "storage": "1TB",
         "color": "Standard",
-        "price": 47840.0,
+        "price": 17940.0,
         "sku": "UPPER-B-U0071"
       }
     ],
@@ -22223,8 +22223,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate XT2 Ultimate Design (16+1TB) 5G Unlocked Foldable Display Black",
     "title": "Huawei Mate XT2 Ultimate Design (16+1TB) 5G Unlocked Foldable Display Black",
     "description": "Huawei Mate XT2 Ultimate Design (16+1TB) 5G Unlocked Foldable Display Black. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 76245.0,
-    "price_team": 76245.0,
+    "price_retail": 16445.0,
+    "price_team": 16445.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -22239,7 +22239,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate XT2 Ultimate Design (16+1TB) 5G Unlocked Foldable Display Black",
         "storage": "1TB",
         "color": "Standard",
-        "price": 76245.0,
+        "price": 16445.0,
         "sku": "UPPER-B-U0081"
       }
     ],
@@ -22287,8 +22287,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display White",
     "title": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display White",
     "description": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 36777.0,
-    "price_team": 36777.0,
+    "price_retail": 6877.0,
+    "price_team": 6877.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -22303,7 +22303,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display White",
         "storage": "512G",
         "color": "Standard",
-        "price": 36777.0,
+        "price": 6877.0,
         "sku": "UPPER-B-U0083"
       }
     ],
@@ -22319,8 +22319,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display Purple",
     "title": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display Purple",
     "description": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display Purple. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 72956.0,
-    "price_team": 72956.0,
+    "price_retail": 13156.0,
+    "price_team": 13156.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -22335,7 +22335,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate XT2 Ultimate Design (16+512G) 5G Unlocked Foldable Display Purple",
         "storage": "512G",
         "color": "Standard",
-        "price": 72956.0,
+        "price": 13156.0,
         "sku": "UPPER-B-U0084"
       }
     ],
@@ -22767,8 +22767,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Mate XTS Ultimate Design (16+512G) 5G Unlocked Foldable Display Black",
     "title": "Huawei Mate XTS Ultimate Design (16+512G) 5G Unlocked Foldable Display Black",
     "description": "Huawei Mate XTS Ultimate Design (16+512G) 5G Unlocked Foldable Display Black. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 52026.0,
-    "price_team": 52026.0,
+    "price_retail": 22126.0,
+    "price_team": 22126.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei Mate X Foldable",
@@ -22783,7 +22783,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Mate XTS Ultimate Design (16+512G) 5G Unlocked Foldable Display Black",
         "storage": "512G",
         "color": "Standard",
-        "price": 52026.0,
+        "price": 22126.0,
         "sku": "UPPER-B-U0098"
       }
     ],
@@ -31873,8 +31873,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Pura X MAX(16+1TB) 5G Unlocked Foldable Display Collector's Edition Deep Blue",
     "title": "Huawei Pura X MAX(16+1TB) 5G Unlocked Foldable Display Collector's Edition Deep Blue",
     "description": "Huawei Pura X MAX(16+1TB) 5G Unlocked Foldable Display Collector's Edition Deep Blue. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 37375.0,
-    "price_team": 37375.0,
+    "price_retail": 7475.0,
+    "price_team": 7475.0,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei P Series",
@@ -31889,7 +31889,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Pura X MAX(16+1TB) 5G Unlocked Foldable Display Collector's Edition Deep Blue",
         "storage": "1TB",
         "color": "Standard",
-        "price": 37375.0,
+        "price": 7475.0,
         "sku": "UPPER-B-U0386"
       }
     ],
@@ -31905,8 +31905,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Huawei Pura X MAX(16+512G) 5G Unlocked Foldable Display Collector's Edition Midnight Black",
     "title": "Huawei Pura X MAX(16+512G) 5G Unlocked Foldable Display Collector's Edition Midnight Black",
     "description": "Huawei Pura X MAX(16+512G) 5G Unlocked Foldable Display Collector's Edition Midnight Black. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 33218.9,
-    "price_team": 33218.9,
+    "price_retail": 3318.9,
+    "price_team": 3318.9,
     "specs": {
       "Brand": "Huawei",
       "Category": "Huawei P Series",
@@ -31921,7 +31921,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Huawei Pura X MAX(16+512G) 5G Unlocked Foldable Display Collector's Edition Midnight Black",
         "storage": "512G",
         "color": "Standard",
-        "price": 33218.9,
+        "price": 3318.9,
         "sku": "UPPER-B-U0387"
       }
     ],
@@ -36575,8 +36575,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Tech MagicV6 Foldable Display 5G 5G Unlocked 16+512GB",
     "title": "Tech MagicV6 Foldable Display 5G 5G Unlocked 16+512GB",
     "description": "Tech MagicV6 Foldable Display 5G 5G Unlocked 16+512GB. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 30199.0,
-    "price_team": 30199.0,
+    "price_retail": 5382.0,
+    "price_team": 5382.0,
     "specs": {
       "Brand": "Tech",
       "Category": "Honor V Foldable Series",
@@ -36591,7 +36591,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Tech MagicV6 Foldable Display 5G 5G Unlocked 16+512GB",
         "storage": "5G; 512GB",
         "color": "Standard",
-        "price": 30199.0,
+        "price": 5382.0,
         "sku": "UPPER-C-U0032"
       }
     ],
@@ -43791,8 +43791,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
     "title": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
     "description": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 36478.0,
-    "price_team": 36478.0,
+    "price_retail": 6578.0,
+    "price_team": 6578.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -43807,7 +43807,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
         "storage": "256GB; 5G",
         "color": "Standard",
-        "price": 36478.0,
+        "price": 6578.0,
         "sku": "UPPER-C-U0276"
       }
     ],
@@ -43823,8 +43823,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G Purple",
     "title": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G Purple",
     "description": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G Purple. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 39767.0,
-    "price_team": 39767.0,
+    "price_retail": 9867.0,
+    "price_team": 9867.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -43839,7 +43839,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G Purple",
         "storage": "256GB; 5G",
         "color": "Standard",
-        "price": 39767.0,
+        "price": 9867.0,
         "sku": "UPPER-C-U0277"
       }
     ],
@@ -43855,8 +43855,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G",
     "title": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G",
     "description": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 39767.0,
-    "price_team": 39767.0,
+    "price_retail": 9867.0,
+    "price_team": 9867.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -43871,7 +43871,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G",
         "storage": "256GB; 5G",
         "color": "Standard",
-        "price": 39767.0,
+        "price": 9867.0,
         "sku": "UPPER-C-U0278"
       }
     ],
@@ -43983,8 +43983,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
     "title": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
     "description": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 39468.0,
-    "price_team": 39468.0,
+    "price_retail": 9568.0,
+    "price_team": 9568.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -43999,7 +43999,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Ultra Foldable Display (F9760)1 5G Unlocked 5G White",
         "storage": "512GB; 5G",
         "color": "Standard",
-        "price": 39468.0,
+        "price": 9568.0,
         "sku": "UPPER-C-U0282"
       }
     ],
@@ -44303,8 +44303,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
     "title": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
     "description": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 31993.0,
-    "price_team": 31993.0,
+    "price_retail": 2093.0,
+    "price_team": 2093.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -44319,7 +44319,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
         "storage": "256GB; 5G",
         "color": "Standard",
-        "price": 31993.0,
+        "price": 2093.0,
         "sku": "UPPER-C-U0292"
       }
     ],
@@ -44623,8 +44623,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
     "title": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
     "description": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 39169.0,
-    "price_team": 39169.0,
+    "price_retail": 9269.0,
+    "price_team": 9269.0,
     "specs": {
       "Brand": "Samsung",
       "Category": "Samsung Galaxy Z Fold Series",
@@ -44639,7 +44639,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Samsung Fold8 Foldable Display (F9710)1 5G Unlocked 5G",
         "storage": "512GB; 5G",
         "color": "Standard",
-        "price": 39169.0,
+        "price": 9269.0,
         "sku": "UPPER-C-U0302"
       }
     ],
@@ -60744,8 +60744,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Vivo X300Ultra 16GB+1TB 5G Unlocked 5G Satellite Edition Black Ka",
     "title": "Vivo X300Ultra 16GB+1TB 5G Unlocked 5G Satellite Edition Black Ka",
     "description": "Vivo X300Ultra 16GB+1TB 5G Unlocked 5G Satellite Edition Black Ka. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 262910.7,
-    "price_team": 262910.7,
+    "price_retail": 23710.7,
+    "price_team": 23710.7,
     "specs": {
       "Brand": "Vivo",
       "Category": "Vivo X Series",
@@ -60760,7 +60760,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Vivo X300Ultra 16GB+1TB 5G Unlocked 5G Satellite Edition Black Ka",
         "storage": "16GB; 1TB; 5G",
         "color": "Standard",
-        "price": 262910.7,
+        "price": 23710.7,
         "sku": "UPPER-D-U0331"
       }
     ],
@@ -62504,8 +62504,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Vivo Y60i 6+128G 5G Unlocked 5GA Edition Purple",
     "title": "Vivo Y60i 6+128G 5G Unlocked 5GA Edition Purple",
     "description": "Vivo Y60i 6+128G 5G Unlocked 5GA Edition Purple. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 63268.4,
-    "price_team": 63268.4,
+    "price_retail": 3468.4,
+    "price_team": 3468.4,
     "specs": {
       "Brand": "Vivo",
       "Category": "Vivo Y Series",
@@ -62520,7 +62520,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Vivo Y60i 6+128G 5G Unlocked 5GA Edition Purple",
         "storage": "128G; 5G",
         "color": "Standard",
-        "price": 63268.4,
+        "price": 3468.4,
         "sku": "UPPER-D-U0387"
       }
     ],
@@ -62984,8 +62984,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Vivo IQOO 5G Unlocked 5G",
     "title": "Vivo IQOO 5G Unlocked 5G",
     "description": "Vivo IQOO 5G Unlocked 5G. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 127673.0,
-    "price_team": 127673.0,
+    "price_retail": 8073.0,
+    "price_team": 8073.0,
     "specs": {
       "Brand": "Vivo",
       "Category": "Electronics",
@@ -63000,7 +63000,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Vivo IQOO 5G Unlocked 5G",
         "storage": "12GB; 512GB; 5G",
         "color": "Standard",
-        "price": 127673.0,
+        "price": 8073.0,
         "sku": "UPPER-D-U0403"
       }
     ],
@@ -63496,8 +63496,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "Vivo IQOO 5G Unlocked 5G Forest Green",
     "title": "Vivo IQOO 5G Unlocked 5G Forest Green",
     "description": "Vivo IQOO 5G Unlocked 5G Forest Green. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 95082.0,
-    "price_team": 95082.0,
+    "price_retail": 5382.0,
+    "price_team": 5382.0,
     "specs": {
       "Brand": "Vivo",
       "Category": "Electronics",
@@ -63512,7 +63512,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "Vivo IQOO 5G Unlocked 5G Forest Green",
         "storage": "12GB; 256GB; 5G",
         "color": "Standard",
-        "price": 95082.0,
+        "price": 5382.0,
         "sku": "UPPER-D-U0419"
       }
     ],
@@ -68489,8 +68489,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "title": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "description": "ASUS ROG 10 Plus Edition 18 Inch U9. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 164450.0,
-    "price_team": 164450.0,
+    "price_retail": 16445.0,
+    "price_team": 16445.0,
     "specs": {
       "Brand": "ASUS ROG",
       "Category": "Electronics",
@@ -68505,7 +68505,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "ASUS ROG 10 Plus Edition 18 Inch U9",
         "storage": "128G",
         "color": "Standard",
-        "price": 164450.0,
+        "price": 16445.0,
         "sku": "LOWER-B-L0003"
       }
     ],
@@ -68521,8 +68521,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "title": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "description": "ASUS ROG 10 Plus Edition 18 Inch U9. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 94185.0,
-    "price_team": 94185.0,
+    "price_retail": 9418.5,
+    "price_team": 9418.5,
     "specs": {
       "Brand": "ASUS ROG",
       "Category": "Electronics",
@@ -68537,7 +68537,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "ASUS ROG 10 Plus Edition 18 Inch U9",
         "storage": "32G",
         "color": "Standard",
-        "price": 94185.0,
+        "price": 9418.5,
         "sku": "LOWER-B-L0004"
       }
     ],
@@ -68553,8 +68553,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "title": "ASUS ROG 10 Plus Edition 18 Inch U9",
     "description": "ASUS ROG 10 Plus Edition 18 Inch U9. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 127075.0,
-    "price_team": 127075.0,
+    "price_retail": 12707.5,
+    "price_team": 12707.5,
     "specs": {
       "Brand": "ASUS ROG",
       "Category": "Electronics",
@@ -68569,7 +68569,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "ASUS ROG 10 Plus Edition 18 Inch U9",
         "storage": "64G",
         "color": "Standard",
-        "price": 127075.0,
+        "price": 12707.5,
         "sku": "LOWER-B-L0005"
       }
     ],
@@ -68713,8 +68713,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "ASUS ROG 10 Edition 16 Inch U9",
     "title": "ASUS ROG 10 Edition 16 Inch U9",
     "description": "ASUS ROG 10 Edition 16 Inch U9. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 90298.0,
-    "price_team": 90298.0,
+    "price_retail": 9029.8,
+    "price_team": 9029.8,
     "specs": {
       "Brand": "ASUS ROG",
       "Category": "Electronics",
@@ -68729,7 +68729,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "ASUS ROG 10 Edition 16 Inch U9",
         "storage": "32G",
         "color": "Standard",
-        "price": 90298.0,
+        "price": 9029.8,
         "sku": "LOWER-B-L0010"
       }
     ],
@@ -69065,8 +69065,8 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
     "model": "ASUS ROG 9PUlt9",
     "title": "ASUS ROG 9PUlt9",
     "description": "ASUS ROG 9PUlt9. Authentic factory sealed inventory with verified international specifications and direct landed pricing in Zambian Kwacha.",
-    "price_retail": 101660.0,
-    "price_team": 101660.0,
+    "price_retail": 10166.0,
+    "price_team": 10166.0,
     "specs": {
       "Brand": "ASUS ROG",
       "Category": "Electronics",
@@ -69081,7 +69081,7 @@ export const CATALOG_PRODUCTS: CatalogProduct[] = [
         "name": "ASUS ROG 9PUlt9",
         "storage": "2T",
         "color": "Standard",
-        "price": 101660.0,
+        "price": 10166.0,
         "sku": "LOWER-B-L0021"
       }
     ],

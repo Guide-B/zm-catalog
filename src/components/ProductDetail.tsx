@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import type { CatalogProduct } from '../data/catalog'
-import { SITE_CONFIG } from '../data/catalog'
+import { SITE_CONFIG, formatPrice } from '../data/catalog'
 
 interface Props {
   product: CatalogProduct
@@ -106,7 +106,7 @@ export default function ProductDetail({ product, onClose }: Props) {
                   <div>
                     <p className="text-xs text-gray-400 dark:text-gray-400 uppercase tracking-wide">Starting from</p>
                     <p className="text-xl font-bold text-gray-900 dark:text-white">
-                      {SITE_CONFIG.currency}{lowestPrice.toLocaleString()}
+                      {SITE_CONFIG.currency}{formatPrice(lowestPrice)}
                     </p>
                   </div>
                   <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${product.in_stock ? 'bg-green-50 dark:bg-green-950/40 text-green-700 dark:text-green-400 border border-green-200/50 dark:border-green-800/40' : 'bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-400'}`}>
@@ -115,8 +115,25 @@ export default function ProductDetail({ product, onClose }: Props) {
                 </div>
               </div>
             ) : (
-              <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 aspect-square flex items-center justify-center text-gray-300 dark:text-gray-600 text-4xl">
-                ?
+              <div className="w-full aspect-square p-6 flex flex-col justify-between items-center text-center bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200/70 dark:from-gray-800/70 dark:via-gray-850 dark:to-gray-900 rounded-2xl border border-gray-200/60 dark:border-gray-700/60 select-none">
+                <span className="text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full border border-gray-200/60 dark:border-gray-700/60">
+                  {product.category.replace(/_/g, ' ')}
+                </span>
+                <div className="my-auto py-4">
+                  <span className="text-3xl sm:text-4xl font-black tracking-tight text-gray-800 dark:text-gray-100 block">
+                    {product.brand || 'OFFICIAL'}
+                  </span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400 max-w-[200px] mx-auto mt-2 font-medium block">
+                    {product.model || product.title}
+                  </span>
+                </div>
+                {/* Desktop Quick Price inside badge if no photo */}
+                <div className="w-full bg-white/90 dark:bg-gray-800/90 rounded-xl p-3 border border-gray-200/60 dark:border-gray-700/60 flex items-center justify-between">
+                  <span className="text-xs text-gray-400 dark:text-gray-400 uppercase tracking-wide">Starting from</span>
+                  <span className="text-lg font-bold text-gray-900 dark:text-white">
+                    {SITE_CONFIG.currency}{formatPrice(lowestPrice)}
+                  </span>
+                </div>
               </div>
             )}
           </div>
@@ -127,7 +144,7 @@ export default function ProductDetail({ product, onClose }: Props) {
             <div>
               <div className="md:hidden flex items-baseline justify-between mb-1.5">
                 <span className="text-xl font-bold text-gray-900 dark:text-white">
-                  {SITE_CONFIG.currency}{lowestPrice.toLocaleString()}
+                  {SITE_CONFIG.currency}{formatPrice(lowestPrice)}
                 </span>
                 <span className={`text-[11px] px-2 py-0.5 rounded-full font-medium ${product.in_stock ? 'bg-green-50 dark:bg-green-950/40 text-green-700 dark:text-green-400' : 'bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-400'}`}>
                   {product.in_stock ? 'In Stock' : 'Out of Stock'}
@@ -169,7 +186,7 @@ export default function ProductDetail({ product, onClose }: Props) {
                       </div>
                       {v.price > 0 && (
                         <p className="text-xs font-bold text-gray-900 dark:text-white flex-shrink-0">
-                          {SITE_CONFIG.currency}{v.price.toLocaleString()}
+                          {SITE_CONFIG.currency}{formatPrice(v.price)}
                         </p>
                       )}
                     </div>

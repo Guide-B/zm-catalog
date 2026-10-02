@@ -1,5 +1,5 @@
 import type { CatalogProduct } from '../data/catalog'
-import { SITE_CONFIG } from '../data/catalog'
+import { SITE_CONFIG, formatPrice } from '../data/catalog'
 
 interface Props {
   product: CatalogProduct
@@ -10,8 +10,8 @@ export default function ProductCard({ product, onClick }: Props) {
   const primaryImage = product.images[0] || null
   const priceDisplay =
     product.variants.length > 0
-      ? `${SITE_CONFIG.currency}${Math.min(...product.variants.map((v) => v.price)).toLocaleString()}`
-      : `${SITE_CONFIG.currency}${product.price_retail.toLocaleString()}`
+      ? `${SITE_CONFIG.currency}${formatPrice(Math.min(...product.variants.map((v) => v.price)))}`
+      : `${SITE_CONFIG.currency}${formatPrice(product.price_retail)}`
 
   const variantCount = product.variants.length
 
@@ -30,7 +30,28 @@ export default function ProductCard({ product, onClick }: Props) {
             loading="lazy"
           />
         ) : (
-          <div className="text-gray-300 dark:text-gray-600 text-4xl select-none">?</div>
+          <div className="w-full h-full p-3.5 flex flex-col justify-between items-center text-center bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200/70 dark:from-gray-800/60 dark:via-gray-850 dark:to-gray-900 select-none">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 bg-white/90 dark:bg-gray-800/90 px-2 py-0.5 rounded-full border border-gray-200/60 dark:border-gray-700/60">
+              {product.category.replace(/_/g, ' ')}
+            </span>
+            <div className="my-auto py-2">
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-gray-800 dark:text-gray-100 block">
+                {product.brand || 'OFFICIAL'}
+              </span>
+              <span className="text-[11px] text-gray-500 dark:text-gray-400 line-clamp-1 max-w-[130px] mx-auto mt-1 font-medium">
+                {product.model || product.title.split(' ')[0]}
+              </span>
+            </div>
+            {product.specs?.['Capacity'] || product.specs?.['Storage'] ? (
+              <span className="text-[10px] font-semibold text-gray-600 dark:text-gray-300 bg-white/80 dark:bg-gray-700/60 px-2 py-0.5 rounded border border-gray-200/50 dark:border-gray-600/50">
+                {product.specs['Capacity'] || product.specs['Storage']}
+              </span>
+            ) : (
+              <span className="text-[10px] font-medium text-gray-400 dark:text-gray-500">
+                Verified Inventory
+              </span>
+            )}
+          </div>
         )}
       </div>
 
